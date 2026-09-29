@@ -82,3 +82,26 @@ Update the dataset and pretrained model paths in the configuration section of th
 ```python
 DATA_ROOT = Path("path/to/axon_dataset")
 MODEL_DIR = Path("path/to/pretrained/model")
+
+
+The pretrained model weights and research dataset are not distributed with this repository.
+The notebook can then be run sequentially for training, validation, and inference.
+Requirements
+The main dependencies include:
+- Python
+- PyTorch
+- NumPy
+- OpenCV
+- SciPy
+- pandas
+- Pillow
+- Matplotlib
+- tqdm
+
+Acknowledgments
+This implementation builds on the Segment Anything Model (SAM) and microSAM ecosystem. The pretrained foundation-model components belong to their respective authors and projects.
+The LoRA adaptation, task-specific segmentation pipeline, training strategy, and axon-analysis implementation in this repository were developed as part of my research in medical image analysis.
+Author
+Durjoy Deb Dhruba
+Ph.D. Candidate, Electrical and Computer Engineering
+University of Iowa
