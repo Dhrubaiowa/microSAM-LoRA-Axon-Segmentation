@@ -1,7 +1,4 @@
 # microSAM-LoRA-Axon-Segmentation
-Parameter-efficient adaptation of microSAM with LoRA for healthy and damaged axon segmentation in optic nerve histology images.
-
-# microSAM-LoRA Axon Segmentation
 
 This repository contains a deep learning pipeline for semantic segmentation of healthy and damaged axons in optic nerve histology images using parameter-efficient adaptation of **microSAM**.
 
